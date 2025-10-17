@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="profile-container">
+        <article class="profile-card" data-testid="test-profile-card">
+
+            <div class="profile-header">
+                <figure class="profile-avatar"> <img
+                        src="assets/profile.jpg"
+                        alt="Abubakar Nabil - Profile Picture" data-testid="test-user-avatar" />
+                </figure>
+
+                <header class="profile-info">
+                    <h1 data-testid="test-user-name">Abubakar Nabil</h1>
+                    <p class="user-bio" data-testid="test-user-bio">
+                        Passionate fullstack developer who loves building clean UI and accessible web experiences.
+                    </p>
+                </header>
+            </div>
+
+            <div class="card-section time-display">
+                <p>
+                    Current Time (ms): <strong><span data-testid="test-user-time" id="time">Loading...</span></strong>
+                </p>
+            </div>
+
+            <nav class="card-section social-links" aria-label="Social Links">
+                <h2 class="section-title">Connect</h2>
+                <ul data-testid="test-user-social-links">
+                    <li><a href="https://x.com/NabilAbuba50790" data-testid="test-user-social-twitter" target="_blank"
+                            rel="noopener noreferrer"><span class="link-text">Twitter</span></a></li>
+                    <li><a href="https://github.com/Nabil201-ctrl/" data-testid="test-user-social-github"
+                            target="_blank" rel="noopener noreferrer"><span class="link-text">GitHub</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/nabil-abubakar-956519323/"
+                            data-testid="test-user-social-linkedin" target="_blank" rel="noopener noreferrer"><span
+                                class="link-text">LinkedIn</span></a></li>
+                </ul>
+            </nav>
+
+            <div class="skills-and-hobbies">
+                <section class="card-section user-hobbies">
+                    <h2 class="section-title">Hobbies</h2>
+                    <ul data-testid="test-user-hobbies">
+                        <li>Coding</li>
+                        <li>Gaming</li>
+                        <li>Photography</li>
+                    </ul>
+                </section>
+
+                <section class="card-section user-dislikes">
+                    <h2 class="section-title">Dislikes</h2>
+                    <ul data-testid="test-user-dislikes">
+                        <li>Slow Internet</li>
+                        <li>Lagging laptop</li>
+                        <li>Unclean Code</li>
+                        <li>Lack of documentation</li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
