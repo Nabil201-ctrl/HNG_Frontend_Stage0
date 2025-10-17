@@ -16,9 +16,3 @@ All required content and behavioral acceptance criteria, including the use of sp
 | **Testing Ready** | Every visible, required element includes the exact `data-testid` attribute specified in the task brief for seamless automated testing. |
 | **Live Data** | The current time is displayed and updated in **milliseconds** using `Date.now()`, ticking every second via vanilla JavaScript as statead. |
 | **Modern Styling** | Custom CSS variables are used as stated color palette and spacing, enhancing visual polish with modern shadows and transitions. |
-
----
-
-## 🛠️ Project Structure
-
-The project follows a standard file structure:
